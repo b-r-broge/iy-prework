@@ -1,0 +1,15 @@
+p {
+  color: orange;
+  font-size: 16px;
+}
+
+.test1 {
+  font-style: italic;
+  color: green;
+}
+
+#big {
+  font-size: 20px;
+  font-style: normal;
+  color: red  ;
+}
