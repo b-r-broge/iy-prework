@@ -16,12 +16,15 @@ for (var i = 0; i<7; i++) {
   console.log(outstr);
 }
 // Third Way
+var out = ""
 for (var i = 0; i<7; i++) {
   var outstr = "#";
   while (outstr.length < i+1) {
     outstr += "#";
   }
+  out += outstr + "\n"
 }
+console.log(out);
 
 // 2. FizzBuzz
 
